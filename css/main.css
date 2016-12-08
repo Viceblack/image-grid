@@ -28,64 +28,64 @@ img {
 
 img:nth-child(2) {
   display: none;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 img:nth-child(5) {
   display: none;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 25em) {
 
   img:nth-child(2) {
-    float:left;
+    float: left;
     width: 50%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(3) {
-    float:right;
+    float: right;
     width: 50%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(4) {
-    float:left;
+    float: left;
     width: 50%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(5) {
 
-    float:right;
+    float: right;
     width: 50%;
-    display:block;
+    display: block;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
   img:nth-child(2) {
-    float:left;
+    float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(3) {
-    float:left;
+    float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(4) {
     float: right;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(5) {
-    display:none;
+    display: none;
     overflow: hidden;
   }
 }
@@ -93,33 +93,33 @@ img:nth-child(5) {
 @media only screen and (min-width: 60em) {
 
   img:nth-child(1) {
-    float:left;
+    float: left;
     width: 66.6666%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(2) {
     float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(3) {
-    float:left;
+    float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(4) {
     float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
   img:nth-child(5) {
-    float:left;
+    float: left;
     width: 33.3333%;
-    display:block;
+    display: block;
   }
 
 }
